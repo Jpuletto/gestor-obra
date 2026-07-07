@@ -1,21 +1,23 @@
-# JP · Gestor de Obras v13
+# JP · Gestor de Obras v14
 
 ## Cambios
-- Creación y edición de tipos de proyecto mediante funciones RPC seguras.
-- Creación y edición de etapas generales mediante funciones RPC.
-- Señal amarilla para observaciones.
-- Señal roja para no conformidades.
-- Botón `Todos ✓` para marcar conforme en todos los sectores.
-- Botón `Todos NC` para marcar no conforme en todos los sectores.
-- Confirmación antes de generar no conformidades masivas.
-- Nuevo almacenamiento local limpio, sin caché de versiones anteriores.
+- Los controles muestran siempre su estado vigente al volver a una vista.
+- Verde: conforme.
+- Amarillo: observación.
+- Rojo: no conforme.
+- Las observaciones y no conformidades tienen accesos separados.
+- Botón Observaciones con fondo amarillo.
+- Botón No conformes con fondo rojo.
+- Al marcar una observación como Corregida o Verificada:
+  - desaparece de pendientes;
+  - el control queda conforme;
+  - se conserva el historial de la observación.
 
 ## Instalación
-1. Ejecutar `supabase/migrations/20260710_005_project_type_fix_bulk_bad.sql`.
+1. Ejecutar `supabase/migrations/20260711_006_resolve_issues_and_status_buttons.sql`.
 2. Publicar todos los archivos en GitHub Pages.
-3. Probar creación de tipos y marcación masiva.
-4. Solo después ejecutar `supabase/reset/20260710_clear_all_keep_users.sql`.
+3. Probar persistencia, observaciones y no conformidades.
+4. Solo después ejecutar el reset definitivo.
 
 ## Reset
-El reset conserva usuarios, correos, contraseñas y perfiles.
-Borra la información operativa y restaura las configuraciones predeterminadas.
+El reset conserva usuarios, contraseñas, perfiles y roles.

@@ -101,3 +101,15 @@
   .all-sector-actions{min-width:64px}
   .all-sector-button{font-size:8px;padding:7px 4px}
 }
+
+.project-status-actions{display:flex;flex-wrap:wrap;align-items:stretch;gap:10px}
+.project-status-actions>button{min-height:48px}
+.project-issue-button{display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:13px;padding:12px 16px;font-weight:850;border:1px solid transparent}
+.project-issue-button svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:2}
+.project-issue-button b{display:inline-flex;align-items:center;justify-content:center;min-width:22px;height:22px;padding:0 6px;border-radius:999px;background:rgba(0,0,0,.16);font-size:11px}
+.project-issue-button.observation{background:var(--yellow);border-color:var(--yellow);color:#171204}
+.project-issue-button.nonconformity{background:var(--red);border-color:var(--red);color:#fff}
+@media(max-width:560px){
+  .project-status-actions>button{flex:1 1 150px}
+  .project-status-actions>.solid{flex:1 1 100%}
+}
