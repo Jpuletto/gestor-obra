@@ -62,3 +62,19 @@
 .sync-banner.sync-error{border-color:#70302c;background:#251211}.sync-banner.sync-error b{color:#ffaaa5}.sync-banner.sync-error small{color:#d89a96}
 .management-link{width:100%;margin-top:10px;border:1px solid var(--line);background:var(--surface2);color:#fff;border-radius:11px;min-height:42px;padding:0 12px;display:flex;align-items:center;justify-content:space-between;font-size:11px;font-weight:800}.management-link svg{width:17px;height:17px}
 .admin-card{border:1px solid var(--line);background:var(--surface);border-radius:18px;padding:15px}.full-button{width:100%;min-height:46px}.member-list{display:flex;flex-direction:column;gap:7px}.member-row{border:1px solid var(--line);border-radius:13px;background:var(--surface2);padding:10px;display:flex;align-items:center;gap:10px}.member-avatar{width:36px;height:36px;border-radius:50%;background:#292929;border:1px solid #3b3b3b;display:grid;place-items:center;font-size:13px;font-weight:900}.member-add{margin-top:14px;border-top:1px solid var(--line);padding-top:14px}.danger-zone{border:1px solid #5a2522;background:#1b0e0d;border-radius:18px;padding:15px}.danger-zone h2{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:#ffaaa5;margin:0}.danger-zone p{font-size:11px;line-height:1.5;color:#c58e8a}.danger-zone .danger{margin-top:5px}
+
+.password-toggle{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:12px;cursor:pointer}
+.password-toggle input{width:16px;height:16px}
+.solid:disabled{opacity:.55;cursor:not-allowed}
+
+.sync-indicator{display:flex;align-items:center;gap:6px;padding:6px 9px;border:1px solid var(--line);border-radius:999px;font-size:10px;color:var(--muted);margin-left:auto;margin-right:8px;white-space:nowrap}
+.sync-indicator span{width:7px;height:7px;border-radius:50%;background:var(--green)}
+.sync-indicator.saving span{background:var(--yellow);animation:pulse 1s infinite}
+.sync-indicator.error span,.sync-indicator.offline span{background:var(--red)}
+@keyframes pulse{50%{opacity:.35}}
+.compact-hero{padding:16px}
+.project-finished,.summary-finished{background:#102318!important;border-color:#2d6a43!important}
+.finished-section .section-head h2{color:#81d89d}
+.project-complete-pill{padding:10px 13px;font-size:12px}
+.visit-bottom-actions{grid-template-columns:1.2fr 1fr 1fr}
+@media(max-width:540px){.sync-indicator{max-width:112px;overflow:hidden;text-overflow:ellipsis}.visit-bottom-actions{grid-template-columns:1fr}}

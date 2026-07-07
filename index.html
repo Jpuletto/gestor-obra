@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#080808">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<title>JP · Gestor de obras v9</title>
+<title>JP · Gestor de obras</title>
 <link rel="manifest" href="./manifest.webmanifest">
 <link rel="apple-touch-icon" href="./icon-192.png">
 <link rel="stylesheet" href="./styles.css">
@@ -34,7 +34,7 @@
 </svg>
 <header class="topbar">
   <button class="brand" id="brandBtn"><span class="brand-box">JP</span><span><b>JP</b><small>Control de obra</small></span></button>
-  <button class="icon-btn" id="settingsBtn" aria-label="Configuración"><svg><use href="#i-settings"/></svg></button>
+  <div id="syncIndicator" class="sync-indicator saved"><span></span>Todo guardado</div><button class="icon-btn" id="settingsBtn" aria-label="Configuración"><svg><use href="#i-settings"/></svg></button>
 </header>
 <main id="app"></main>
 <nav class="bottom-nav" id="bottomNav">
@@ -45,10 +45,9 @@
 </nav>
 <div id="modal"></div>
 <div id="toast" class="toast"></div>
-<input id="photoInput" type="file" accept="image/*" capture="environment" multiple hidden>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="./supabase-config.js"></script>
-<script src="./data.js"></script>
+<script src="./jp-config.js"></script>
+<script src="./jp-data.js"></script>
 <script src="./app.js"></script>
 <script>if('serviceWorker' in navigator&&location.protocol.startsWith('http'))addEventListener('load',()=>navigator.serviceWorker.register('./service-worker.js'));</script>
 </body>
