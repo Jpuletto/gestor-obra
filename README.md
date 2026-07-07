@@ -1,38 +1,20 @@
-# JP · Gestor de Obras — versión operativa
+# JP · Gestor de Obras v12
 
-## Alcance
+## Funciones principales
 - Proyectos activos y finalizados.
-- Administración de datos, arquitectos y permisos.
-- Calendario y visitas tentativas sincronizadas.
-- Visitas en borrador y cerradas.
-- Resultados independientes por visita.
-- Estado actual de cada control.
+- Usuarios y permisos por proyecto.
+- Calendario y visitas sincronizadas.
+- Borradores y resultados históricos por visita.
 - Observaciones sincronizadas.
-- Indicador global de guardado.
-- Cambio de contraseña.
-- Sin fotografías en esta versión.
+- Indicador de guardado.
+- Etapas generales editables.
+- Tipos de proyecto editables.
+- Aprobación rápida de un control en todos los sectores desde General.
 
-## Instalación sobre la base existente
-1. Ejecutar `supabase/migrations/20260708_003_operational.sql`.
-2. Publicar la app y crear un proyecto temporal.
-3. Probar calendario, borrador, controles, observaciones y cierre.
-4. Ejecutar `supabase/reset/20260708_clear_test_data_keep_users.sql`.
-5. Volver a abrir la app y crear proyectos reales.
+## Instalación
+1. Ejecutar `supabase/migrations/20260709_004_stage_groups_project_types.sql`.
+2. Subir todos los archivos a la raíz del repositorio GitHub Pages.
+3. Cerrar y volver a abrir la aplicación instalada.
 
-El reset conserva usuarios, perfiles, correos y contraseñas.
-
-## Archivos principales
-- `index.html`
-- `app.js`
-- `styles.css`
-- `jp-data.js`
-- `jp-config.js`
-- `manifest.webmanifest`
-- `service-worker.js`
-
-## Datos
-La base principal es Supabase/PostgreSQL. La caché local utiliza la clave
-`jp_gestor_obras_v11` y elimina automáticamente restos locales de versiones
-de prueba anteriores.
-
-Los términos técnicos como “nudos estructurales” dentro del checklist se conservan porque no son referencias a la marca.
+## Diseño de etapas
+Las etapas generales agrupan las etapas técnicas existentes. La creación de controles técnicos nuevos no forma parte de esta versión.
