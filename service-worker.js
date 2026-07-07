@@ -1,4 +1,4 @@
-const CACHE='nudo-control-v7';
+const CACHE='jp-gestor-obras-v9';
 const FILES=['./','./index.html','./styles.css','./supabase-config.js','./data.js','./app.js','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES)));self.skipWaiting()});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))));self.clients.claim()});

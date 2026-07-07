@@ -1,4 +1,4 @@
-# NUDO · Control de obra v2
+# JP · Gestor de obras
 
 Prototipo móvil/PWA para inspecciones de obra.
 
@@ -59,3 +59,21 @@ Hasta conectar Supabase, los datos se guardan localmente en el navegador.
 
 ### Seguridad
 `supabase-config.js` contiene únicamente la URL y la Publishable key. Nunca incluir Secret key o service_role.
+
+
+## Versión v8
+
+Antes de publicar, ejecutar `supabase/migrations/20260707_project_management_v2.sql` en Supabase SQL Editor.
+
+Cambios:
+- repara proyectos sin membresía;
+- carga proyectos mediante una función RPC segura;
+- crea proyectos y sectores en una sola transacción;
+- administración de datos clave;
+- lista de arquitectos por proyecto;
+- agrega usuarios existentes por correo;
+- cambia permisos o quita integrantes;
+- elimina proyectos desde una zona de riesgo;
+- muestra errores de sincronización de forma persistente.
+
+La app no invita ni crea usuarios de Auth desde el navegador. Los usuarios deben existir primero en Supabase Authentication → Users.
