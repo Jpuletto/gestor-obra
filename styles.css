@@ -113,3 +113,34 @@
   .project-status-actions>button{flex:1 1 150px}
   .project-status-actions>.solid{flex:1 1 100%}
 }
+
+.refresh-button{margin-right:6px}
+.refresh-button svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.refresh-button:active svg{transform:rotate(90deg)}
+@media(max-width:430px){
+  .topbar{padding-left:10px;padding-right:10px}
+  .brand small{display:none}
+  .sync-indicator{max-width:92px;margin-right:5px;padding-left:7px;padding-right:7px}
+  .icon-btn{width:39px;height:39px}
+}
+
+.section-head-actions{display:flex;gap:7px;align-items:center}
+.blank-project-note{margin:8px 0 13px;padding:10px 12px;border:1px solid #3e3e3e;border-radius:11px;background:#171717;color:#cfcfcf;font-size:11px;line-height:1.45}
+.task-manager-summary{margin:-2px 0 10px;color:var(--muted);font-size:11px}
+.task-manager-list{max-height:50vh;overflow:auto}
+.report tr.report-status-ok td{background:#dff3e5}
+.report tr.report-status-obs td{background:#fff0b8}
+.report tr.report-status-bad td{background:#ffd6d2}
+.report tr.report-status-pending td{background:#f0f0f0}
+.report-state{display:inline-block;border-radius:999px;padding:3px 6px;font-size:8px;font-weight:800;white-space:nowrap}
+.report-state.ok{background:#b9e6c5;color:#123d1e}
+.report-state.obs{background:#ffe074;color:#4b3900}
+.report-state.bad{background:#ef6c64;color:#fff}
+.report-state.pending{background:#d8d8d8;color:#444}
+.report-issue-obs{background:#fff8d9;border-color:#e2c85e}
+.report-issue-bad{background:#ffe1de;border-color:#df7d76}
+.report,.report *{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+@media(max-width:430px){
+  .section-head-actions{gap:4px}
+  .section-head-actions button{font-size:9px}
+}

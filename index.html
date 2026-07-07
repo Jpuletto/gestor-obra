@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#080808">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<title>JP · Gestor de obras v14</title>
+<title>JP · Gestor de obras v16</title>
 <link rel="manifest" href="./manifest.webmanifest">
 <link rel="apple-touch-icon" href="./icon-192.png">
 <link rel="stylesheet" href="./styles.css">
@@ -31,10 +31,11 @@
 <symbol id="i-dots" viewBox="0 0 24 24"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></symbol>
 <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M4 21h16"/></symbol>
 <symbol id="i-share" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.7 10.7 6.6-4.2M8.7 13.3l6.6 4.2"/></symbol>
+<symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 6v6h-6"/><path d="M18.5 9A7.5 7.5 0 1 0 19 15"/></symbol>
 </svg>
 <header class="topbar">
   <button class="brand" id="brandBtn"><span class="brand-box">JP</span><span><b>JP</b><small>Control de obra</small></span></button>
-  <div id="syncIndicator" class="sync-indicator saved"><span></span>Todo guardado</div><button class="icon-btn" id="settingsBtn" aria-label="Configuración"><svg><use href="#i-settings"/></svg></button>
+  <div id="syncIndicator" class="sync-indicator saved"><span></span>Todo guardado</div><button class="icon-btn refresh-button" id="refreshBtn" aria-label="Recargar aplicación" title="Recargar aplicación"><svg><use href="#i-refresh"/></svg></button><button class="icon-btn" id="settingsBtn" aria-label="Configuración"><svg><use href="#i-settings"/></svg></button>
 </header>
 <main id="app"></main>
 <nav class="bottom-nav" id="bottomNav">
@@ -49,6 +50,6 @@
 <script src="./jp-config.js"></script>
 <script src="./jp-data.js"></script>
 <script src="./app.js"></script>
-<script>if('serviceWorker' in navigator&&location.protocol.startsWith('http'))addEventListener('load',()=>navigator.serviceWorker.register('./service-worker.js'));</script>
+
 </body>
 </html>
