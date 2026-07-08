@@ -26,6 +26,7 @@
 .event-dot{display:inline-block!important;width:6px;height:6px;border-radius:50%;margin:0!important}.event-dot.done{background:var(--green)}.event-dot.planned{background:var(--yellow)}.event-dot.overdue{background:var(--red)}.event-dot.due{background:#ff8a5b}
 .calendar-legend{display:flex;gap:12px;flex-wrap:wrap;color:var(--muted);font-size:10px;margin-top:10px}.calendar-legend span{display:flex;align-items:center;gap:5px}
 .planned-row .row-meta svg,.row-meta svg{width:13px;height:13px;vertical-align:-2px}.calendar-issue-row{border-color:#3b2920;background:#15110f}
+.calendar-selected{margin-top:12px;border-top:1px solid var(--line);padding-top:11px}.calendar-selected-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}.calendar-selected-head b{font-size:12px;text-transform:capitalize}.calendar-selected-head span{font-size:10px;color:var(--muted)}
 @media(min-width:700px){.calendar-day{min-height:60px}}
 
 .count-badge{

@@ -1,4 +1,4 @@
-# JP · Gestor de Obras v18
+# JP · Gestor de Obras v19
 
 ## Funciones nuevas
 
@@ -12,6 +12,7 @@
 - Abrir y cerrar observaciones / no conformidades desde el proyecto.
 - Marcar observaciones como corregidas o verificadas dejando el control conforme.
 - Ver en el calendario el vencimiento de corrección de observaciones abiertas.
+- Ver el detalle de cada marca al tocar un día del calendario.
 - Editar desde la agenda la fecha límite, responsable y estado de una observación.
 - Exportar el PDF con tareas coloreadas:
   - verde: conforme;
@@ -31,7 +32,7 @@
    - `20260713_008_core_project_rpcs.sql`
    - `20260714_009_remove_duplicate_project_bundle.sql`
 3. Publicar todos los archivos en GitHub Pages.
-4. Abrir la app y usar el botón de recarga para tomar la versión v18.
+4. Abrir la app y usar el botón de recarga para tomar la versión v19.
 
 ## Reset
 
