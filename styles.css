@@ -23,9 +23,9 @@
 .calendar-day{position:relative;min-height:46px;border:1px solid transparent;border-radius:10px;background:transparent;color:var(--text);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px}
 .calendar-day:hover{background:var(--surface-2)}.calendar-day.today{border-color:#555}.calendar-day.selected{background:#fff;color:#090909;border-color:#fff}.calendar-day.empty-day{pointer-events:none}
 .calendar-day>span{font-size:12px;font-weight:750}.calendar-day>i{min-height:6px;display:flex;gap:3px;align-items:center}
-.event-dot{display:inline-block!important;width:6px;height:6px;border-radius:50%;margin:0!important}.event-dot.done{background:var(--green)}.event-dot.planned{background:var(--yellow)}.event-dot.overdue{background:var(--red)}
+.event-dot{display:inline-block!important;width:6px;height:6px;border-radius:50%;margin:0!important}.event-dot.done{background:var(--green)}.event-dot.planned{background:var(--yellow)}.event-dot.overdue{background:var(--red)}.event-dot.due{background:#ff8a5b}
 .calendar-legend{display:flex;gap:12px;flex-wrap:wrap;color:var(--muted);font-size:10px;margin-top:10px}.calendar-legend span{display:flex;align-items:center;gap:5px}
-.planned-row .row-meta svg,.row-meta svg{width:13px;height:13px;vertical-align:-2px}
+.planned-row .row-meta svg,.row-meta svg{width:13px;height:13px;vertical-align:-2px}.calendar-issue-row{border-color:#3b2920;background:#15110f}
 @media(min-width:700px){.calendar-day{min-height:60px}}
 
 .count-badge{

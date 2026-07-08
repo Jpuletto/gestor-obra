@@ -1,4 +1,4 @@
-# JP · Gestor de Obras v17
+# JP · Gestor de Obras v18
 
 ## Funciones nuevas
 
@@ -11,6 +11,8 @@
 - Impedir comenzar una visita en una etapa sin tareas.
 - Abrir y cerrar observaciones / no conformidades desde el proyecto.
 - Marcar observaciones como corregidas o verificadas dejando el control conforme.
+- Ver en el calendario el vencimiento de corrección de observaciones abiertas.
+- Editar desde la agenda la fecha límite, responsable y estado de una observación.
 - Exportar el PDF con tareas coloreadas:
   - verde: conforme;
   - amarillo: observación;
@@ -27,8 +29,9 @@
    - `20260711_006_resolve_issues_and_status_buttons.sql`
    - `20260712_007_custom_project_tasks.sql`
    - `20260713_008_core_project_rpcs.sql`
+   - `20260714_009_remove_duplicate_project_bundle.sql`
 3. Publicar todos los archivos en GitHub Pages.
-4. Abrir la app y usar el botón de recarga para tomar la versión v17.
+4. Abrir la app y usar el botón de recarga para tomar la versión v18.
 
 ## Reset
 
