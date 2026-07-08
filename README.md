@@ -1,4 +1,4 @@
-# JP · Gestor de Obras v19
+# JP · Gestor de Obras v20
 
 ## Funciones nuevas
 
@@ -14,6 +14,7 @@
 - Ver en el calendario el vencimiento de corrección de observaciones abiertas.
 - Ver el detalle de cada marca al tocar un día del calendario.
 - Editar desde la agenda la fecha límite, responsable y estado de una observación.
+- Priorizar los eventos debajo del calendario y plegar el historial de visitas.
 - Exportar el PDF con tareas coloreadas:
   - verde: conforme;
   - amarillo: observación;
@@ -32,7 +33,7 @@
    - `20260713_008_core_project_rpcs.sql`
    - `20260714_009_remove_duplicate_project_bundle.sql`
 3. Publicar todos los archivos en GitHub Pages.
-4. Abrir la app y usar el botón de recarga para tomar la versión v19.
+4. Abrir la app y usar el botón de recarga para tomar la versión v20.
 
 ## Reset
 

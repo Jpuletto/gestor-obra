@@ -1,4 +1,4 @@
-const CACHE='jp-gestor-obras-v19';
+const CACHE='jp-gestor-obras-v20';
 const FILES=[
   './',
   './index.html',
