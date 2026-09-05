@@ -1,4 +1,4 @@
-# JP · Gestor de Obras v20
+# JP · Gestor de Obras v28
 
 ## Funciones nuevas
 
@@ -15,10 +15,23 @@
 - Ver el detalle de cada marca al tocar un día del calendario.
 - Editar desde la agenda la fecha límite, responsable y estado de una observación.
 - Priorizar los eventos debajo del calendario y plegar el historial de visitas.
+- Exportar desde la obra el informe de la última visita cerrada.
+- Elegir qué visita cerrada exportar al generar el PDF desde la obra.
+- Exportar informes agrupados por jornada de visitas.
+- Exportar informes con varios días seleccionados y título editable.
+- Ocultar la hora de visita en los informes.
+- Ocultar la cantidad de visitas cerradas en el informe.
+- Mostrar `Arquitecto: Juan Pablo Puletto` en el informe.
+- Renombrar la sección de agenda del informe a `Reuniones futuras agendadas`.
+- Mostrar pendientes principales del proyecto solo para el sector `General`.
+- Mostrar `Agendado` como caracterización beige en controles, calendario e informes.
+- Incluir en el informe solo los controles marcados y todos los sectores revisados en esa visita.
+- Crear proyectos con sector inicial `General`.
 - Exportar el PDF con tareas coloreadas:
   - verde: conforme;
   - amarillo: observación;
   - rojo: no conforme;
+  - beige: agendado;
   - gris: sin revisar.
 
 ## Instalación
@@ -32,8 +45,10 @@
    - `20260712_007_custom_project_tasks.sql`
    - `20260713_008_core_project_rpcs.sql`
    - `20260714_009_remove_duplicate_project_bundle.sql`
+   - `20260904_010_default_general_sector.sql`
+   - `20260905_011_scheduled_check_status.sql`
 3. Publicar todos los archivos en GitHub Pages.
-4. Abrir la app y usar el botón de recarga para tomar la versión v20.
+4. Abrir la app y usar el botón de recarga para tomar la versión v28.
 
 ## Reset
 
