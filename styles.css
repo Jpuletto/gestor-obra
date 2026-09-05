@@ -160,3 +160,27 @@
 @media(max-width:860px){.modal-card:has(.report){max-width:calc(100vw - 20px)}.modal-body:has(.report){padding:10px}.modal-body:has(.report) .report{margin:0}}
 
 body.printing-report #app,body.printing-report .topbar,body.printing-report #bottomNav,body.printing-report .modal-head,body.printing-report .modal-foot,body.printing-report .toast{display:none!important}body.printing-report #modal{display:block!important}body.printing-report .modal-bg{position:static;background:#fff;padding:0;display:block}body.printing-report .modal-card{max-height:none;overflow:visible;border:0;box-shadow:none;max-width:none}body.printing-report .modal-body{padding:0;background:#fff!important;overflow:visible}
+
+
+@media(min-width:900px){
+  body{padding-bottom:0}
+  #app{max-width:1120px;padding:28px 28px 44px}
+  .topbar{padding-left:28px;padding-right:28px}
+  .project-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .summary{padding:18px}
+  .summary-top{align-items:flex-start}
+  .project-status-actions{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+  .project-status-actions>button,.project-status-actions>.project-complete-pill{width:100%;min-width:0;min-height:50px}
+  .project-issue-button{padding:12px 14px;white-space:normal;text-align:center}
+  .section-head{gap:12px;align-items:center}
+  .section-head-actions{margin-left:auto;justify-content:flex-end;gap:8px}
+  .section-head-actions .section-tool-button{min-width:118px;min-height:38px}
+  .row{min-height:66px}
+  .modal-card:not(:has(.report)){max-width:760px}
+  .modal-foot{justify-content:flex-end}
+  .modal-foot button{flex:0 0 auto;min-width:150px}
+  .modal-foot .solid{min-width:170px}
+  .task-manager-list{max-height:60vh}
+  .calendar-day{min-height:68px}
+  .visit-bottom-actions{max-width:560px;margin-left:auto}
+}
