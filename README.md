@@ -1,7 +1,11 @@
-# JP · Gestor de Obras v31
+# JP · Gestor de Obras v36
 
 ## Funciones nuevas
 
+- Mostrar `Agregar etapas` también en el bloque principal del proyecto.
+- Iniciar una inspección directamente sin doble confirmación.
+- Desmarcar un control conforme tocando nuevamente el check.
+- Agregar etapas faltantes desde cada proyecto y ajustar la etapa actual si corresponde.
 - Editar tareas de una plantilla únicamente para un proyecto.
 - Agregar tareas personalizadas por etapa.
 - Restaurar una tarea editada a su contenido original.
@@ -28,6 +32,9 @@
 - Marcar visitas agendadas como realizadas desde el calendario y convertir controles agendados en conformes.
 - Ajustar el PDF para que observaciones largas no se salgan del ancho de página.
 - Renombrar la sección del informe a `Observaciones y no conformidades a resolver`.
+- Quitar el resumen de conteos debajo de cada día del informe.
+- Mostrar observaciones verificadas en el informe del día correspondiente.
+- Cerrar observaciones solo como `Corregida` y guardar comentario de corrección para el informe.
 - Mostrar pendientes principales del proyecto solo para el sector `General`.
 - Mostrar `Agendado` como caracterización beige en controles, calendario e informes.
 - Incluir en el informe solo los controles marcados y todos los sectores revisados en esa visita.
@@ -63,7 +70,7 @@
    - `20260905_011_scheduled_check_status.sql`
    - `20260905_012_all_project_types_general_sector.sql`
 3. Publicar todos los archivos en GitHub Pages.
-4. Abrir la app y usar el botón de recarga para tomar la versión v31.
+4. Abrir la app y usar el botón de recarga para tomar la versión v36.
 
 ## Reset
 

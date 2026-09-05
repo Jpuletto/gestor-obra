@@ -145,7 +145,7 @@
 .report-state.pending{background:#d8d8d8;color:#444}
 .report-state.scheduled{background:#d8c7a3;color:#3c2e16}
 .report-issue-obs{background:#fff8d9;border-color:#e2c85e}
-.report-issue-bad{background:#ffe1de;border-color:#df7d76}
+.report-issue-bad{background:#ffe1de;border-color:#df7d76}.report-issue-corrected{background:#e5f4ea;border-color:#77b98a}.correction-note{border-left-color:#4aaa6b}
 .report,.report *{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
 @media(max-width:430px){
   .section-head-actions{gap:4px}
