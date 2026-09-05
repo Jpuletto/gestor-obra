@@ -1,4 +1,4 @@
-# JP · Gestor de Obras v44
+# JP · Gestor de Obras v45
 
 ## Funciones nuevas
 
@@ -83,7 +83,7 @@
    - `20260905_011_scheduled_check_status.sql`
    - `20260905_012_all_project_types_general_sector.sql`
 3. Publicar todos los archivos en GitHub Pages.
-4. Abrir la app y usar el botón de recarga para tomar la versión v44.
+4. Abrir la app y usar el botón de recarga para tomar la versión v45.
 
 ## Reset
 
