@@ -1,12 +1,17 @@
-# JP · Gestor de Obras v39
+# JP · Gestor de Obras v41
 
 ## Funciones nuevas
 
+- Mejorar los botones compactos de etapas y tareas.
+- Normalizar fechas de eventos agendados para que aparezcan en calendario y PDF.
+- Renombrar la sección del PDF a `Reuniones`.
+- Mejorar la administración de etapas y tareas del proyecto.
+- Quitar el botón principal de `Agregar etapas` del bloque superior de la obra.
+- Priorizar eventos agendados atrasados en el calendario y aceptar estados históricos equivalentes.
 - Ajustar etiquetas de estado del informe para que no se salgan del recuadro.
 - Corregir la generación de informes con observaciones abiertas o corregidas.
 - Exportar informes en A5 horizontal para mejorar el área de lectura.
 - Mostrar comentarios de controles en un recuadro horizontal debajo de cada fila del informe.
-- Mostrar `Agregar etapas` también en el bloque principal del proyecto.
 - Iniciar una inspección directamente sin doble confirmación.
 - Desmarcar un control conforme tocando nuevamente el check.
 - Agregar etapas faltantes desde cada proyecto y ajustar la etapa actual si corresponde.
@@ -30,7 +35,7 @@
 - Ocultar la hora de visita en los informes.
 - Ocultar la cantidad de visitas cerradas en el informe.
 - Mostrar `Arquitecto: Juan Pablo Puletto` en el informe.
-- Renombrar la sección de agenda del informe a `Reuniones futuras agendadas`.
+- Renombrar la sección de agenda del informe a `Reuniones`.
 - Mostrar todas las observaciones/no conformidades abiertas del proyecto en el informe.
 - Dejar todos los tipos de proyecto con sector inicial `General`.
 - Marcar visitas agendadas como realizadas desde el calendario y convertir controles agendados en conformes.
@@ -74,7 +79,7 @@
    - `20260905_011_scheduled_check_status.sql`
    - `20260905_012_all_project_types_general_sector.sql`
 3. Publicar todos los archivos en GitHub Pages.
-4. Abrir la app y usar el botón de recarga para tomar la versión v39.
+4. Abrir la app y usar el botón de recarga para tomar la versión v41.
 
 ## Reset
 
