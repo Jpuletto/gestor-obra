@@ -1,7 +1,11 @@
-# JP · Gestor de Obras v36
+# JP · Gestor de Obras v39
 
 ## Funciones nuevas
 
+- Ajustar etiquetas de estado del informe para que no se salgan del recuadro.
+- Corregir la generación de informes con observaciones abiertas o corregidas.
+- Exportar informes en A5 horizontal para mejorar el área de lectura.
+- Mostrar comentarios de controles en un recuadro horizontal debajo de cada fila del informe.
 - Mostrar `Agregar etapas` también en el bloque principal del proyecto.
 - Iniciar una inspección directamente sin doble confirmación.
 - Desmarcar un control conforme tocando nuevamente el check.
@@ -70,7 +74,7 @@
    - `20260905_011_scheduled_check_status.sql`
    - `20260905_012_all_project_types_general_sector.sql`
 3. Publicar todos los archivos en GitHub Pages.
-4. Abrir la app y usar el botón de recarga para tomar la versión v36.
+4. Abrir la app y usar el botón de recarga para tomar la versión v39.
 
 ## Reset
 
