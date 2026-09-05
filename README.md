@@ -1,7 +1,11 @@
-# JP · Gestor de Obras v41
+# JP · Gestor de Obras v44
 
 ## Funciones nuevas
 
+- Aislar por JavaScript la impresión del informe para que no salga el resumen de la app.
+- Imprimir/exportar únicamente el informe, sin la pantalla principal de la app.
+- Mostrar el preview del informe como una hoja A5 horizontal igual al PDF exportado.
+- Compactar el diseño del informe para favorecer una sola hoja sin cortar contenido.
 - Mejorar los botones compactos de etapas y tareas.
 - Normalizar fechas de eventos agendados para que aparezcan en calendario y PDF.
 - Renombrar la sección del PDF a `Reuniones`.
@@ -79,7 +83,7 @@
    - `20260905_011_scheduled_check_status.sql`
    - `20260905_012_all_project_types_general_sector.sql`
 3. Publicar todos los archivos en GitHub Pages.
-4. Abrir la app y usar el botón de recarga para tomar la versión v41.
+4. Abrir la app y usar el botón de recarga para tomar la versión v44.
 
 ## Reset
 
