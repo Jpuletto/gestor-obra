@@ -1,4 +1,4 @@
-# JP · Gestor de Obras v28
+# JP · Gestor de Obras v31
 
 ## Funciones nuevas
 
@@ -23,6 +23,11 @@
 - Ocultar la cantidad de visitas cerradas en el informe.
 - Mostrar `Arquitecto: Juan Pablo Puletto` en el informe.
 - Renombrar la sección de agenda del informe a `Reuniones futuras agendadas`.
+- Mostrar todas las observaciones/no conformidades abiertas del proyecto en el informe.
+- Dejar todos los tipos de proyecto con sector inicial `General`.
+- Marcar visitas agendadas como realizadas desde el calendario y convertir controles agendados en conformes.
+- Ajustar el PDF para que observaciones largas no se salgan del ancho de página.
+- Renombrar la sección del informe a `Observaciones y no conformidades a resolver`.
 - Mostrar pendientes principales del proyecto solo para el sector `General`.
 - Mostrar `Agendado` como caracterización beige en controles, calendario e informes.
 - Incluir en el informe solo los controles marcados y todos los sectores revisados en esa visita.
@@ -38,17 +43,27 @@
 
 1. Verificar que la base tenga la estructura original de la app: perfiles, proyectos, integrantes, sectores, contactos, visitas, chequeos y observaciones.
 2. Ejecutar, en orden, las migraciones de `supabase/migrations`:
+   - 
    - `20260708_003_operational.sql`
+   - 
    - `20260709_004_stage_groups_project_types.sql`
+   - 
    - `20260710_005_project_type_fix_bulk_bad.sql`
+   - 
    - `20260711_006_resolve_issues_and_status_buttons.sql`
+   - 
    - `20260712_007_custom_project_tasks.sql`
+   - 
    - `20260713_008_core_project_rpcs.sql`
+   - 
    - `20260714_009_remove_duplicate_project_bundle.sql`
+   - 
    - `20260904_010_default_general_sector.sql`
+   - 
    - `20260905_011_scheduled_check_status.sql`
+   - `20260905_012_all_project_types_general_sector.sql`
 3. Publicar todos los archivos en GitHub Pages.
-4. Abrir la app y usar el botón de recarga para tomar la versión v28.
+4. Abrir la app y usar el botón de recarga para tomar la versión v31.
 
 ## Reset
 
