@@ -184,3 +184,16 @@ body.printing-report #app,body.printing-report .topbar,body.printing-report #bot
   .calendar-day{min-height:68px}
   .visit-bottom-actions{max-width:560px;margin-left:auto}
 }
+
+
+.report-rubro{display:block;line-height:1.18}
+.report-rubro b{display:block;font-size:7.8px;font-weight:850}
+.report-rubro small{display:block;margin-top:1px;color:#666;font-size:6.7px}
+.task-edit-icon{width:34px;height:34px;border:1px solid var(--line);border-radius:10px;background:var(--surface2);display:grid;place-items:center;color:#d8d8d8;flex:0 0 auto}
+.task-edit-icon svg{width:16px;height:16px}
+.task-row:hover .task-edit-icon{border-color:#666;color:#fff;background:#222}
+
+.task-edit-button{border:1px solid var(--line);border-radius:10px;background:var(--surface2);color:#d8d8d8;flex:0 0 auto}
+.task-edit-button svg{width:16px;height:16px}
+.task-edit-button:hover{border-color:#666;color:#fff;background:#222}
+@media(max-width:430px){.task-edit-button{width:32px;height:32px}.check .tiny{width:32px}}

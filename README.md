@@ -1,7 +1,10 @@
-# JP · Gestor de Obras v47
+# JP · Gestor de Obras v53
 
 ## Funciones nuevas
 
+- Evitar que el PDF repita conformes actuales en varios días: cada informe toma solo los resultados de la visita correspondiente.
+- Quitar del inicio la sección `Borradores abiertos` y guardar automáticamente al navegar o cerrar la pestaña.
+- Exportar informes usando el estado vigente de los controles para evitar marcas antiguas ya desmarcadas.
 - Aislar por JavaScript la impresión del informe para que no salga el resumen de la app.
 - Imprimir/exportar únicamente el informe, sin la pantalla principal de la app.
 - Mostrar el preview del informe como una hoja A5 horizontal igual al PDF exportado.
@@ -83,7 +86,7 @@
    - `20260905_011_scheduled_check_status.sql`
    - `20260905_012_all_project_types_general_sector.sql`
 3. Publicar todos los archivos en GitHub Pages.
-4. Abrir la app y usar el botón de recarga para tomar la versión v47.
+4. Abrir la app y usar el botón de recarga para tomar la versión v51.
 
 ## Reset
 
